@@ -137,23 +137,6 @@ Learns interactions between pathway embeddings using gated cosine attention.
 
 ---
 
-# Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
 # Required Libraries
 
 ```txt
