@@ -156,7 +156,7 @@ gseapy
 Run the main script:
 
 ```bash
-python main.py
+python traintabnetplus.py
 ```
 
 The pipeline automatically:
@@ -169,17 +169,6 @@ The pipeline automatically:
 6. Evaluates performance
 7. Saves output files
 
----
-
-# Output Files
-
-The following files are generated after execution:
-
-| File | Description |
-|------|-------------|
-| v4_2_results.csv | Sample-level predictions |
-| v4_2_metrics.csv | Performance metrics |
-| v4_2_interaction_heatmap.csv | Cross-pathway interaction matrix |
 
 ---
 
@@ -208,21 +197,6 @@ To ensure reproducibility:
 - Public GEO datasets are used
 - Full preprocessing pipeline is included
 - Complete training pipeline is provided
-
----
-
-# Citation
-
-If you use this work, please cite:
-
-```bibtex
-@article{yourcitation,
-  title={TabNet: Cross-Pathway Interaction Attention for Brain Metastasis Prediction},
-  author={Author Name},
-  journal={Journal Name},
-  year={2026}
-}
-```
 
 ---
 
